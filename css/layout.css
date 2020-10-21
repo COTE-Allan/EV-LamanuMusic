@@ -1,0 +1,147 @@
+/*
+╔═╗╔═╗╔═╗  ┌┐ ┬ ┬  ╔═╗╦╔═╗╦  ╔═╗╔═╗╦╔═╗
+║  ╚═╗╚═╗  ├┴┐└┬┘  ║  ║║╣ ║  ║╣ ╚═╗║╚═╗
+╚═╝╚═╝╚═╝  └─┘ ┴   ╚═╝╩╚═╝╩═╝╚═╝╚═╝╩╚═╝
+╔═╗╦  ╦╔═╗╦  ╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔╗╔
+║╣ ╚╗╔╝╠═╣║  ║ ║ ║ ╠═╣ ║ ║║ ║║║║
+╚═╝ ╚╝ ╩ ╩╩═╝╚═╝ ╩ ╩ ╩ ╩ ╩╚═╝╝╚╝
+*/
+
+/*________________________________________________*/
+
+/* ============================== */
+/* ==== |  INITIALISATION  | ==== */
+/* ============================== */
+
+.app-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-top {
+  display: flex;
+  flex: 100%;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-bottom {
+  display: flex;
+  flex: 100%;
+}
+
+.app-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+/* =============================== */
+/* ======== |  APP TOP  | ======== */
+/* =============================== */
+
+.app-content {
+  flex: 100%;
+}
+.app-nav a {
+  flex-grow: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.album {
+  display: flex;
+}
+
+.tracklist {
+  display: flex;
+  flex-direction: column;
+}
+.track-item {
+  display: flex;
+}
+.track-item p:nth-child(2) {
+  margin-left: auto;
+}
+
+/* ================================ */
+/* ======== |  APPBOTTOM | ======== */
+/* ================================ */
+
+.current {
+  display: flex;
+  flex-grow: 1;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls a {
+  margin: auto;
+}
+
+.current-details {
+  justify-self: center;
+  align-self: center;
+}
+.current img {
+  justify-self: center;
+  align-self: center;
+}
+
+/* =============================== */
+/* ======== |  COULEURS | ======== */
+/* =============================== */
+
+/*===== APP TOP ====*/
+.app-content {
+  background: rgb(177, 177, 177);
+  background: linear-gradient(
+    180deg,
+    rgba(177, 177, 177, 1) 0%,
+    rgba(149, 149, 149, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 49, 1) 100%
+  );
+}
+.app-top .album {
+  background: rgb(177, 177, 177);
+  background: linear-gradient(
+    180deg,
+    rgba(177, 177, 177, 1) 0%,
+    rgba(149, 149, 149, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 49, 1) 100%
+  );
+}
+.app-top .tracklist {
+  background: rgb(177, 177, 177);
+  background: linear-gradient(
+    180deg,
+    rgba(177, 177, 177, 1) 0%,
+    rgba(149, 149, 149, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 49, 1) 100%
+  );
+}
+.app-nav {
+  background-color: #313131;
+}
+
+/*===== APP BOTTOM ====*/
+.app-bottom .current {
+  background: #313131;
+}
+.app-bottom .controls {
+  background: #313131;
+}
+.app-bottom {
+  background: #313131;
+}
